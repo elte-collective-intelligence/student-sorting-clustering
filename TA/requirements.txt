@@ -1,0 +1,5 @@
+numpy
+pettingzoo
+matplotlib
+tensorflow
+tqdm
