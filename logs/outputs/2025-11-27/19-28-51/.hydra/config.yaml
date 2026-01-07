@@ -1,0 +1,17 @@
+env:
+  name: AntSorting
+  grid_size: 10
+  num_agents: 2
+  device: cuda
+algo:
+  name: ppo
+  lr: 0.0003
+  clip_epsilon: 0.2
+  gamma: 0.99
+  frames_per_batch: 1
+  total_frames: 1
+  num_epochs: 1
+agent:
+  hidden_size: 64
+experiment:
+  seed: 42

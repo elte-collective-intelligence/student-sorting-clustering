@@ -1,0 +1,4 @@
+name: AntSorting
+grid_size: 10
+num_agents: 2
+device: auto

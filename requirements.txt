@@ -1,5 +1,1 @@
-numpy
-pettingzoo
-matplotlib
-tensorflow
-tqdm
+-r requirements.lock.txt

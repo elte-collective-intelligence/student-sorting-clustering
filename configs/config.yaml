@@ -1,0 +1,11 @@
+defaults:
+  - env: ant
+  - algo: ppo
+  - agent: ctde
+  - experiment: default
+  - _self_
+
+hydra:
+  run:
+    dir: logs/outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
